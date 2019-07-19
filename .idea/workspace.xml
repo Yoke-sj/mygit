@@ -4,7 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/test01.html" line="382" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="369f188f-b1e3-48ee-8d7c-34b37cf698f6" name="默认的" comment="" />
+    <list default="true" id="369f188f-b1e3-48ee-8d7c-34b37cf698f6" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test01.html" beforeDir="false" afterPath="$PROJECT_DIR$/test01.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="449" column="8" selection-start-line="449" selection-start-column="8" selection-end-line="449" selection-end-column="8" />
+            <state relative-caret-position="217">
+              <caret line="433" column="16" selection-start-line="433" selection-start-column="16" selection-end-line="433" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -63,6 +66,10 @@
       <find>body</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -73,46 +80,33 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="801" />
     <option name="y" value="472" />
     <option name="width" value="781" />
     <option name="height" value="605" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Webworkspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webworkspace" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Webworkspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webworkspace" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Program Files/Git/cmd/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -166,17 +160,22 @@
       <workItem from="1562576427995" duration="5806000" />
       <workItem from="1562746850625" duration="4566000" />
       <workItem from="1563515647399" duration="214000" />
+      <workItem from="1563516086810" duration="865000" />
+      <workItem from="1563517118859" duration="64000" />
+      <workItem from="1563517195155" duration="66000" />
+      <workItem from="1563517273123" duration="56000" />
+      <workItem from="1563517341358" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60340000" />
+    <option name="totallyTimeSpent" value="61417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893162" visible="true" weight="0.06055819" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893162" visible="true" weight="0.06055819" />
       <window_info id="Structure" order="1" sideWeight="0.50106835" side_tool="true" weight="0.08478146" />
       <window_info id="Favorites" order="2" sideWeight="0.50106835" side_tool="true" weight="0.08478146" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -189,8 +188,8 @@
       <window_info anchor="bottom" id="运行" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4997367" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002633" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -206,8 +205,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="449" column="8" selection-start-line="449" selection-start-column="8" selection-end-line="449" selection-end-column="8" />
+        <state relative-caret-position="217">
+          <caret line="433" column="16" selection-start-line="433" selection-start-column="16" selection-end-line="433" selection-end-column="16" />
         </state>
       </provider>
     </entry>
