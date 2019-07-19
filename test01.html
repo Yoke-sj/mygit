@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<!--头部标签-->
+<head>
+<!--  编码格式-->
+  <meta charset="utf-8">
+<!--  为搜索引擎定义关键词:-->
+  <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+  <!-- 为网页定义描述内容:-->
+  <meta name="description" content="学习web的练习案例">
+<!--  定义网页作者-->
+  <meta name="author" content="lsj">
+<!--  每30秒钟刷新当前页面:-->
+  <meta http-equiv="refresh" content="30">
+
+  <title>学习html</title>
+
+  <script>
+      document.createElement("myHero")
+  </script>
+  <style type="text/css">
+<!--  背景色  -->
+    body {background-color: ivory}
+    myHero{
+      display: block;
+      background-color: #EAC8FF;
+      padding: 50px;
+      font-size: 30px;
+    }
+  </style>
+
+</head>
+<body>
+<!--标题-->
+<h1 style=font-family:"楷体" ;n>Html练习</h1>
+<!--段落-->
+<p>我的第一个段落。</p>
+<p>我的第二个段落。</p>
+<!--换行-->
+<br/>
+<!--水平线-->
+<hr />
+<!--超链接-->
+<a href="https://www.baidu.com/">这是一个超链接</a>
+<br />
+<!--插入图片,alt 属性用来为图像定义一串预备的可替换的文本。-->
+<img src="images/001%20(10).jpg" height="251" width="497"alt="图片无法显示" title="图片无法显示"/><br />
+<!--加粗文本-->
+<b>加粗文本</b><br>
+<!--斜体文本-->
+<i>斜体文本</i><br>
+<!--电脑自动输出-->
+<code>电脑自动输出</code><br>
+<!--上标和下标-->
+这是 <sub> 下标</sub> 和 <sup> 上标</sup>
+<br />
+<!--加粗-->
+<b>这个文本是加粗的</b>
+<br/>
+<!--加粗-->
+<strong>这个文本是加粗的</strong>
+<br/>
+<!--放大-->
+<big>这个文本字体放大</big>
+<br/>
+<!--缩小字体-->
+<small>这个文本是缩小的</small>
+<br/>
+<!--斜体-->
+<em>这个文本是斜体的</em>
+<br/>
+<!--斜体-->
+<i>这个文本是斜体的</i>
+<br/>
+<hr />
+<!--预文本，作用是这里怎么排序，网页端就会原封不动的显示出来。当显示页面时，浏览器会移除源代码中多余的空格和空行。所有连续的空格或空行都会被算作一个空格，所以需要预文本标签-->
+<pre>
+此例演示如何使用 pre 标签，例如3
+对空行和    空格2
+进行控制1
+</pre>
+<br />
+<!--显示计算机/编程代码-->
+<code>计算机输出</code>
+<br />
+<kbd>键盘输入</kbd>
+<br />
+<tt>打字机文本</tt>
+<br />
+<samp>计算机代码样本</samp>
+<br />
+<var>计算机变量</var>
+<br />
+<!--地址-->
+<address>湖北省武汉市洪山区光谷软件园</address>
+<br />
+<!--文字方向-->
+<p><bdo dir="rtl">该段落文字从右到左显示。</bdo></p>
+<!--定义短的引用语-->
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p>
+<!--定义长的引用语-->
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+  For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+<!--删除字效果和插入字效果-->
+<p>My favorite color is <del>蓝色</del> <ins>红色</ins>!</p>
+<!--定义引用、引证-->
+<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+<!--定义项目-->
+<dfn>定义项目</dfn><br/>
+<!--创建图片链接:①有边框②无边框，此处路径用的是绝对路径。-->
+<p>有边框的图片链接：
+  <a href="https://www.baidu.com/">
+    <img  border="10" src="images/001%20(11).jpg" alt="图片无法显示" width="32" height="32"></a>
+</p>
+<p>无边框的图片链接:
+  <a href="https://www.baidu.com/">
+    <img border="0" src="images/001%20(10).jpg" alt="图片无法显示" width="32" height="32"></a>
+</p>
+<hr />
+<!--无边框的表格-->
+<table>
+  <tr>
+    <td>100</td>
+    <td>200</td>
+    <td>300</td>
+  </tr>
+  <tr>
+    <td>400</td>
+    <td>500</td>
+    <td>600</td>
+  </tr>
+</table>
+<!--带有标题的表格，水平标题&垂直标题 caption标签是表格上方显示文字-->
+<h4>水平标题:</h4>
+<table border="1">
+  <caption>练习专用</caption>
+  <tr>
+    <th>Name</th>
+    <th>Telephone</th>
+    <th>Telephone</th>
+  </tr>
+  <tr>
+    <td>Bill Gates</td>
+    <td>555 77 854</td>
+    <td>555 77 855</td>
+  </tr>
+</table>
+<h4>垂直标题:</h4>
+<table border="1">
+  <tr>
+    <th>First Name:</th>
+    <td>Bill Gates</td>
+  </tr>
+  <tr>
+    <th>Telephone:</th>
+    <td>555 77 854</td>
+  </tr>
+  <tr>
+    <th>Telephone:</th>
+    <td>555 77 855</td>
+  </tr>
+</table>
+<!--跨行或跨列单元格,colspan:跨行，rowspan：跨列-->
+<h4>单元格跨两格:</h4>
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th colspan="2">Telephone</th>
+  </tr>
+  <tr>
+    <td>Bill Gates</td>
+    <td>555 77 854</td>
+    <td>555 77 855</td>
+  </tr>
+</table>
+
+<h4>单元格跨两列:</h4>
+<!--单元格边距（cellpadding）属性设置-->
+<!--单元格间距(Cell spacing)属性设置 "0"是无间距-->
+<table border="1"cellpadding="10" cellspacing="0">
+  <tr>
+    <th>First Name:</th>
+    <td>Bill Gates</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telephone:</th>
+    <td>555 77 854</td>
+  </tr>
+  <tr>
+    <td>555 77 855</td>
+  </tr>
+  <!--表格内的标签-->
+  <td>这个单元格包含一个列表
+    <ul>
+      <li>apples</li>
+      <li>bananas</li>
+      <li>pineapples</li>
+    </ul>
+  </td>
+  <td>傻子</td>
+</table>
+<!--无序列表，list-style-type:disc：圆点，circle：圆圈，square：正方形-->
+<ul>
+  <li>Coffee</li>
+  <li>Milk</li>
+</ul><h4>圆点列表：</h4>
+<ul style="list-style-type:disc">
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Lemons</li>
+  <li>Oranges</li>
+</ul>
+
+<h4>圆圈列表：</h4>
+<ul style="list-style-type:circle">
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Lemons</li>
+  <li>Oranges</li>
+</ul>
+
+<h4>正方形列表：</h4>
+<ul style="list-style-type:square">
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Lemons</li>
+  <li>Oranges</li>
+</ul>
+<!--有序列表,type:默认阿拉伯数字，大写字母：A,小写字母：a，大写罗马数字：I，小写罗马数字：i-->
+<h4>编号列表：</h4>
+<ol>
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Lemons</li>
+  <li>Oranges</li>
+</ol>
+
+<h4>大写字母列表：</h4>
+<ol type="A">
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Lemons</li>
+  <li>Oranges</li>
+</ol>
+
+<h4>小写字母列表：</h4>
+<ol type="a">
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Lemons</li>
+  <li>Oranges</li>
+</ol>
+
+<h4>罗马数字列表：</h4>
+<ol type="I">
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Lemons</li>
+  <li>Oranges</li>
+</ol>
+
+<h4>小写罗马数字列表：</h4>
+<ol type="i">
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Lemons</li>
+  <li>Oranges</li>
+</ol>
+<!--自定义列表-->
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+<!--内联元素，当与 CSS 一同使用时，<span> 元素可用于为部分文本设置样式属性。-->
+<p>我的母亲有 <span style="color:blue">蓝色</span> 的眼睛。</p>
+
+<!--使用div布局-->
+<div id="container" style="width:500px">
+
+  <div id="header" style="background-color:#b8ff59;">
+    <h1 style="margin-bottom:0;">主要的网页标题</h1>
+  </div>
+
+  <div id="menu" style="background-color:#ff8d40;height:200px;width:100px;float:left;">
+    <b>菜单</b><br />
+    HTML<br />
+    CSS<br />
+    JavaScript
+  </div>
+  <div id="content" style="background-color:#a1b5ee;height:200px;width:400px;float:left;">
+    内容在这里
+  </div>
+  <div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+    版权1594066282@qq.com
+  </div>
+</div>
+<!--使用iframe框架布局，三段式-->
+<div>
+  <iframe height=100px width=60% src="https://www.baidu.com/" frameborder="10" scrolling="no"></iframe><br />
+  <iframe height=100px width=13% src="test02.html" frameborder="10" scrolling="auto"></iframe>
+  <iframe height=100px width=47% src="https://blog.csdn.net/jzy1990/article/details/75806600" frameborder="10" scrolling="auto"></iframe>
+</div>
+
+<!--使用表格布局-->
+<table width="500" border="0">
+  <tr>
+    <td colspan="2" style="background-color:#ff4ff1;">
+      <h1>主要的网页标题</h1>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="background-color:#FFD700;width:100px;">
+      <b>菜单</b><br>
+      HTML<br>
+      CSS<br>
+      JavaScript
+    </td>
+    <td style="background-color:#eeeeee;height:200px;width:400px;">
+      内容在这里</td>
+  </tr>
+
+  <tr>
+    <td colspan="2" style="background-color:#ff4f3b;text-align:center;">
+      版权1594066282@qq.com</td>
+  </tr>
+</table>
+
+<!--  表单：1.创建文本字段:text2.创建密码字段:password 3.单选按钮:Radio Buttons 4.复选框（Checkboxes）5.提交按钮(Submit Button)6.简单的下拉列表7.预选下拉列表8文本域9、重置按钮（reset）-->
+  <form action="test02.html"method="get">
+    First name: <input type="text" name="firstname"><br>
+    Last name: <input type="text" name="lastname"><br />
+    Password:<input type="password" name="password"><br />
+    <input type="radio" name="sex" value="男">男<br />
+    <input type="radio" name="sex" value="女">女<br />
+    <input type="checkbox" name="double" value="李白">李白<br />
+    <input type="checkbox" name="double" value="杜甫">杜甫<br />
+    <input type="checkbox" name="double" value="王维">王维<br />
+    <input type="submit" name="" value="提交"><br />
+    <select name="湖北">
+      <option value="武汉">武汉</option>
+      <option value="襄阳">襄阳</option>
+      <option value="十堰">十堰</option>
+      <option value="荆州">荆州</option>
+    </select>
+    <br />
+    <textarea rows="10" cols="30">
+      我是一个文本域。不用在意我。
+      所爱隔山海，山海不可平。
+    </textarea><br />
+    <form action="test02.html">
+      Email: <input type="text" name="email"><br>
+      Pin: <input type="text" name="pin" maxlength="4"><br>
+      <input type="reset" value="重置">
+      <input type="submit" value="提交">
+    </form>
+<!--带边框的表单-->
+    <fieldset>
+      <legend>Personal information:</legend>
+      Name: <input type="text" size="30"><br>
+      E-mail: <input type="text" size="30"><br>
+      Date of birth: <input type="text" size="10">
+    </fieldset>
+  </form>
+<!--IFrame框架-->
+<!--设置高宽，设置边框,设置背景色①直接设置选择颜色②通过rgb设置背景颜色-->
+<!--拓展：RGBA 的意思是（Red-Green-Blue-Alpha）它是在 RGB 上扩展包括了 “alpha” 通道，运行对颜色值设置透明度。-->
+<iframe src="test02.html" width="200" height="200" frameborder="4" style="background-color: rgb(199,237,204)">
+  <iframe src="test02.html" name="iframe_a"></iframe>
+  <p><a href="//www.baidu.com" target="iframe_a">关关雎鸠</a></p>
+</iframe>
+<!--RGBA-->
+<p style="background-color:rgba(255,255,0,0.5)">
+  通过 rbg 值设置背景颜色
+</p>
+
+<!--HTML <script> 标签-->
+<script>
+<!---->
+    document.write("<p>余忆童稚时，能张目对日</p>");
+    document.getElementById("demo").style.color="#f1ceff";
+</script>
+<!--<noscript> 标签提供无法使用脚本时的替代内容，比方在浏览器禁用脚本时，或浏览器不支持客户端脚本时。
+<noscript>元素可包含普通 HTML 页面的 body 元素中能够找到的所有元素。
+只有在浏览器不支持脚本或者禁用脚本时，才会显示 <noscript> 元素中的内容：-->
+
+<script>
+    document.write("Hello World!")
+</script>
+<noscript>抱歉，你的浏览器不支持 JavaScript!</noscript>
+
+<!--JavaScript处理 HTML 样式:-->
+<p id="demo">
+  JavaScript 能改变 HTML 元素的样式。
+</p>
+<script>
+    function myFunction()
+    {
+        x=document.getElementById("demo") // 找到元素
+        x.style.color="#ff0000";          // 改变样式
+    }
+</script>
+<button type="button" onclick="myFunction()">点击这里</button>
+
+
+<!--html实体字符-->
+<!--空格1.实体名称&nbsp;	2.实体编号&#160;-->
+<p>空格&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;空格&#160;&#160;&#160;&#160;&#160;&#160;实体编号</p>
+<!--小于号1.实体名称&lt;2.实体编号&#60;-->
+<p>小于号&lt;小于号&#60;小于号</p>
+<!--和号.实体名称&amp;2.实体编号&#38;-->
+<p>和号&amp;和号&#38;和号</p>
+<!--引号.实体名称&quot;2.实体编号&#34;-->
+<p>引号&quot;&quot;引号&#34;引号&quot;</p>
+
+<!--撇号.实体名称&apos; (IE不支持)2.实体编号&#39;-->
+<p>撇号&apos;&apos;撇号&#39;撇号&apos;</p>
+<!--分	.实体名称&cent;	2.实体编号&#162;-->
+<p>分&cent;	&cent;	分&#162;分&cent;</p>
+
+<!--视屏-->
+<video width="320" height="240" controls>
+  <source src="/video/01.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  你的浏览器不支持 video 标签。
+</video>
+<!--html5新元素-->
+<h1>我的第一个标题</h1>
+
+<p>我的第一个段落。</p>
+
+<myHero>我的第一个新元素</myHero>
+<article>
+  菜鸟教程 —— 学的不仅是技术，更是梦想！！！
+</article>
+<!--Canvas元素-->
+<canvas id="myCanvas" width="200" height="100"
+        style="border:1px solid #000000;">
+</canvas>
+<script>
+    var c=document.getElementById("myCanvas");
+    var ctx=c.getContext("2d");
+    ctx.fillStyle="#6AC6FF";
+    ctx.fillRect(0,0,150,75);
+</script>
+<script>
+    var c=document.getElementById("myCanvas");
+    var ctx=c.getContext("2d");
+    ctx.moveTo(0,0);
+    ctx.lineTo(200,100);
+    ctx.stroke();
+
+</script>
+</body>
+
+</html>
